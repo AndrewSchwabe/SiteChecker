@@ -3,11 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteChecker", "SiteChecker\SiteChecker.csproj", "{9BE49305-0093-4FCE-B92E-D7B11F57D483}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiteChecker", "SiteChecker\SiteChecker.csproj", "{9BE49305-0093-4FCE-B92E-D7B11F57D483}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{2AA7BCA0-3A2D-4393-B1CD-12415FA446D6}"
 	ProjectSection(SolutionItems) = preProject
-		github-ci.yml = github-ci.yml
+		.gitignore = .gitignore
+		.github\workflows\azure-functions-app-dotnet.yml = .github\workflows\azure-functions-app-dotnet.yml
 	EndProjectSection
 EndProject
 Global
